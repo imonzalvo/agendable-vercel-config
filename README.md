@@ -1,0 +1,1 @@
+# agendable-vercel-config
