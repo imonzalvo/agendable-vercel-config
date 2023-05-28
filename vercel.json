@@ -2,11 +2,11 @@
     "rewrites": [
         {
             "source": "/a/",
-            "destination": "https://app.agendable.io/"
+            "destination": "https://app.agendable.io/a/"
         },
         {
             "source": "/a/:match*",
-            "destination": "https://app.agendable.io/:match*"
+            "destination": "https://app.agendable.io/a/:match*"
         },
         {
             "source": "/",
