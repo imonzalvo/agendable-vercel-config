@@ -1,0 +1,20 @@
+{
+    "rewrites": [
+        {
+            "source": "/a/",
+            "destination": "https://app.agendable.io/"
+        },
+        {
+            "source": "/a/:match*",
+            "destination": "https://app.agendable.io/:match*"
+        },
+        {
+            "source": "/",
+            "destination": "https://landing.agendable.io/"
+        },
+        {
+            "source": "/:match*",
+            "destination": "https://landing.agendable.io/:match*"
+        }
+    ]
+}
