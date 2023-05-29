@@ -23,6 +23,10 @@
         {
             "source": "/_next/:match*",
             "destination": "https://landing.agendable.io/_next/:match*"
+        },
+        {
+            "source": "/favicon.png",
+            "destination": "https://landing.agendable.io/favicon.png"
         }
     ]
 }
