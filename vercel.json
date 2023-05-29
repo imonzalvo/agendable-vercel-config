@@ -17,6 +17,10 @@
             "destination": "https://app.agendable.io/:match*"
         },
         {
+            "source": "/:match*",
+            "destination": "https://app.agendable.io/:match*"
+        },
+        {
             "source": "/",
             "destination": "https://landing.agendable.io/"
         },
