@@ -5,6 +5,10 @@
             "destination": "https://app.agendable.io/a/"
         },
         {
+            "source": "/a/:match*",
+            "destination": "https://app.agendable.io/a/:match*"
+        },
+        {
             "source": "/app",
             "destination": "https://app.agendable.io/app/"
         },
