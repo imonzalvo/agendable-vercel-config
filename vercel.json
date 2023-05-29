@@ -17,20 +17,12 @@
             "destination": "https://app.agendable.io/:match*"
         },
         {
-            "source": "/:match*",
-            "destination": "https://app.agendable.io/:match*"
-        },
-        {
             "source": "/",
             "destination": "https://landing.agendable.io/"
         },
         {
-            "source": "/_next/:match*",
-            "destination": "https://landing.agendable.io/_next/:match*"
-        },
-        {
-            "source": "/favicon.png",
-            "destination": "https://landing.agendable.io/favicon.png"
+            "source": "/:match*",
+            "destination": "https://landing.agendable.io/:match*"
         }
     ]
 }
