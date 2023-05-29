@@ -21,8 +21,8 @@
             "destination": "https://landing.agendable.io/"
         },
         {
-            "source": "/:match*",
-            "destination": "https://landing.agendable.io/:match*"
+            "source": "/_next/:match*",
+            "destination": "https://landing.agendable.io/_next/:match*"
         }
     ]
 }
