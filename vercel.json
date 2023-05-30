@@ -3,12 +3,22 @@
         {
             "source": "/:path*",
             "has": [
+                {
+                    "type": "host",
+                    "value": "delparque.agendable.io"
+                }
+            ],
+            "destination": "/a/delparque/:path*"
+        },
+        {
+            "source": "/:path*",
+            "has": [
                   {
                     "type": "host",
                     "value": "(?<subdomain>.*)"
                   }
             ],
-            "destination": "http://agendable.io:/:subdomain/:path*"
+            "destination": "http://app.agendable.io:/a/:subdomain/:path*"
           },
         {
             "source": "/a/",
@@ -25,6 +35,14 @@
         {
             "source": "/app/:match*",
             "destination": "https://app.agendable.io/:match*"
+        },
+        {
+            "source": "/",
+            "destination": "https://landing.agendable.io/"
+        },
+        {
+            "source": "/:match*",
+            "destination": "https://landing.agendable.io/:match*"
         }
     ]
 }
