@@ -5,10 +5,10 @@
             "has": [
                 {
                     "type": "host",
-                    "value": "(?<subdomain>.*)"
+                    "value": "(?<subdomain>.*).agendable.io"
                 }
             ],
-            "destination": "www.google.com"
+            "destination": "https://app.agendable.io/a/delparque"
         }
     ]
 }
