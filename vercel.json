@@ -1,20 +1,22 @@
 {
     "rewrites": [
         {
+            "source": "/:match*",
+            "has": [
+                {
+                    "type": "delparque",
+                    "value": "delparque.agendable.io"
+                }
+            ],
+            "destination": "/:path*"
+        },
+        {
             "source": "/a/",
             "destination": "https://app.agendable.io/a/"
         },
         {
             "source": "/a/:match*",
             "destination": "https://app.agendable.io/a/:match*"
-        },
-        {
-            "source": "/app",
-            "destination": "https://app.agendable.io/"
-        },
-        {
-            "source": "/app/:match*",
-            "destination": "https://app.agendable.io/:match*"
         },
         {
             "source": "/",
