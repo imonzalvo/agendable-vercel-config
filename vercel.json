@@ -8,7 +8,7 @@
                     "value": "delparque.agendable.io"
                 }
             ],
-            "destination": "/:path*"
+            "destination": "/a/delparque/:path*"
         },
         {
             "source": "/a/",
