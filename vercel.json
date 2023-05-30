@@ -19,7 +19,7 @@
                   }
             ],
             "destination": "http://:agendable.io:/a/:subdomain/:path*"
-          }
+          },
         {
             "source": "/a/",
             "destination": "https://app.agendable.io/a/"
