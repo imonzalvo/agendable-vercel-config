@@ -1,26 +1,6 @@
 {
     "rewrites": [
         {
-            "source": "/:path*",
-            "has": [
-                {
-                    "type": "host",
-                    "value": "delparque.agendable.io"
-                }
-            ],
-            "destination": "/a/delparque/:path*"
-        },
-        {
-            "source": "/:path*",
-            "has": [
-                {
-                    "type": "host",
-                    "value": "(?<subdomain>.*).agendable.io"
-                }
-            ],
-            "destination": "http://app.agendable.io:/a/:subdomain/:path*"
-        },
-        {
             "source": "/a/",
             "destination": "https://app.agendable.io/a/"
         },
