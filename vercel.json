@@ -8,8 +8,8 @@
                     "value": "(?<subdomain>.*)"
                 }
             ],
-            "destination": "www.google.com",
-            "permanent": false
+            "destination": "https://app.agendable.io/",
+            "permanent": true
         },
         {
             "source": "/a/",
