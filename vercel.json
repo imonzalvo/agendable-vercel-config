@@ -15,7 +15,7 @@
             "has": [
                   {
                     "type": "host",
-                    "value": "(?<subdomain>.*)"
+                    "value": "(?<subdomain>.*).agendable.io"
                   }
             ],
             "destination": "http://agendable.io:/a/:subdomain/:path*"
