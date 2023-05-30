@@ -3,32 +3,12 @@
         {
             "source": "/:path*",
             "has": [
-                {
-                    "type": "host",
-                    "value": "www.delparque.agendable.io"
-                }
-            ],
-            "destination": "/a/delparque/:path*"
-        },
-        {
-            "source": "/:path*",
-            "has": [
-                {
-                    "type": "host",
-                    "value": "delparque.agendable.io"
-                }
-            ],
-            "destination": "/a/delparque/:path*"
-        },
-        {
-            "source": "/:path*",
-            "has": [
                   {
                     "type": "host",
                     "value": "(?<subdomain>.*)"
                   }
             ],
-            "destination": "http://agendable.io:/a/:subdomain/:path*"
+            "destination": "http://agendable.io:/:subdomain/:path*"
           },
         {
             "source": "/a/",
