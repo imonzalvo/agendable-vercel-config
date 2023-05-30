@@ -5,7 +5,7 @@
             "has": [
                 {
                     "type": "host",
-                    "value": "delparque.agendable.io"
+                    "value": "(?<subdomain>.*)"
                 }
             ],
             "destination": "www.google.com"
