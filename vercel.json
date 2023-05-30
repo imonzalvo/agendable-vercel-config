@@ -18,7 +18,7 @@
                     "value": "(?<subdomain>.*)"
                   }
             ],
-            "destination": "http://app.agendable.io:/a/:subdomain/:path*"
+            "destination": "http://app.agendable.io"
           },
         {
             "source": "/a/",
