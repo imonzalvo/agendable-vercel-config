@@ -8,7 +8,7 @@
                     "value": "delparque.agendable.io"
                 }
             ],
-            "destination": "https://agendable.io/a/delparque/:path*"
+            "destination": "/a/delparque/:path*"
         },
         {
             "source": "/a/",
@@ -32,7 +32,7 @@
         },
         {
             "source": "/:match*",
-            "destination": "https://landing.agendable.io/:match*"
+            "destination": "https://app.agendable.io/:match*"
         }
     ]
 }
