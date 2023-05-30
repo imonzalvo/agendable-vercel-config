@@ -11,16 +11,6 @@
             "destination": "/a/delparque/:path*"
         },
         {
-            "source": "/api/:path*",
-            "has": [
-                  {
-                    "type": "host",
-                    "value": "(?<subdomain>.*).agendable.io"
-                  }
-            ],
-            "destination": "http://:agendable.io:/a/:subdomain/:path*"
-          },
-        {
             "source": "/a/",
             "destination": "https://app.agendable.io/a/"
         },
