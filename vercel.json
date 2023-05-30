@@ -1,6 +1,17 @@
 {
     "rewrites": [
         {
+            "source": "/:path*",
+            "has": [
+                {
+                    "type": "host",
+                    "value": "(?<subdomain>.*)"
+                }
+            ],
+            "destination": "www.google.com",
+            "permanent": false
+        },
+        {
             "source": "/a/",
             "destination": "https://app.agendable.io/a/"
         },
