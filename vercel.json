@@ -4,7 +4,7 @@
             "source": "/:match*",
             "has": [
                 {
-                    "type": "delparque",
+                    "type": "host",
                     "value": "delparque.agendable.io"
                 }
             ],
