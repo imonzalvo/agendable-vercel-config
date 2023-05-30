@@ -8,7 +8,7 @@
                     "value": "delparque.agendable.io"
                 }
             ],
-            "destination": "/a/delparque/:path*"
+            "destination": "www.google.com"
         }
     ]
 }
