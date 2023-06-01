@@ -1,23 +1,16 @@
 {
     "rewrites": [
         {
-            "source": "/:path*",
-            "has": [
-                {
-                    "type": "host",
-                    "value": "(?<subdomain>.*)"
-                }
-            ],
-            "destination": "https://app.agendable.io/",
-            "permanent": true
-        },
-        {
             "source": "/a/",
             "destination": "https://app.agendable.io/a/"
         },
         {
             "source": "/a/:match*",
             "destination": "https://app.agendable.io/a/:match*"
+        },
+        {
+            "source": "/signup/:match*",
+            "destination": "https://app.agendable.io/signup/:match*"
         },
         {
             "source": "/app",
